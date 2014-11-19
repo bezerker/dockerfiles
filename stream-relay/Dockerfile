@@ -6,4 +6,3 @@ COPY ${PKGFILE} /root/${PKGFILE}
 COPY mirrorlist /etc/pacman.d/mirrorlist
 RUN pacman -Syy --noconfirm && pacman -S puppet pcre openssl zlib ffmpeg --noconfirm && pacman -U /root/${PKGFILE} --noconfirm && rm -f /root/${PKGFILE}
 ADD jwplayer.tar.gz /usr/share/nginx/html/
-ADD nginx.conf /etc/nginx/nginx.conf
