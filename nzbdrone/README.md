@@ -2,7 +2,8 @@
 
 ## Description
 
-A Dockerfile for [NzbDrone](http://nzbdrone.com/).
+A Dockerfile for [NzbDrone](http://nzbdrone.com/) based on
+https://github.com/aostanin/dockerfiles/tree/master/services/nzbdrone
 
 ## Volumes
 
