@@ -1,4 +1,5 @@
 FROM ubuntu:trusty
+MAINTAINER Terry Zink <bezerker@bezerker.org>
 
 ENV LANG en_US.UTF-8
 RUN locale-gen $LANG
